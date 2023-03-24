@@ -1,0 +1,54 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+body{
+    margin:0 auto;
+    padding:0;
+    background-image:url("linedpaper.png")
+}
+h1{
+    text-align: center;
+    margin:20px;
+}
+h3{
+    text-align: center;
+    margin:10px;
+}
+form{
+    text-align: center;
+    
+}
+ul{
+  width:800px;
+  height:auto;
+  border:2px solid black;
+  text-indent: 24px;
+  list-style: none;
+  padding:30px;
+}
+ul li{
+    border:1px solid black;
+    padding:5px;
+    margin:2px;
+    /* border:none; */
+}
+ul li:hover{
+    font-size:19px;
+    font-weight: bolder;
+}
+li a{
+    display:flex;
+    flex-direction: column;
+    margin-left:400px;
+    margin-top:-18px;
+    color:red;
+}
+li a:hover{
+    color:aqua;
+    cursor:pointer;
+    font-size:19px;
+}
+#have_list{
+    margin-bottom: 20px;
+}
